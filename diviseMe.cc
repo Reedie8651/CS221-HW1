@@ -10,6 +10,7 @@ int main(void) {
 
   if(num<1){
     std::cout << "Bad number!";
+    return 0;
   }
   if(num==1){
     std::cout << "The divisor of 1 is 1, you atonal apple.";
