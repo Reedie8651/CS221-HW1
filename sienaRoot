@@ -1,6 +1,6 @@
 #include <iostream>
 
-
+//namespaces scare me what is a namespace I've never heard the word namespace before help
 int main(void) {
 
   double num;
