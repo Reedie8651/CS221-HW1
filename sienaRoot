@@ -9,7 +9,8 @@ int main(void) {
   double root = num/2;
 
   while (std::abs(root*root-num)>0.000000001){
-    root = 1/2*(root+(num/root));
+    root = 1.0/2.0*(root+(num/root));
+    std::cout <<std::to_string(root)+"\n";
   }
 
   std::cout << "The square root of "+std::to_string(num)+" is "+std::to_string(root);
