@@ -20,7 +20,7 @@ int main(void) {
       s += std::to_string(i)+", ";
     }
   }
-  s += "and "+s+std::to_string(num)+". ";
+  s += "and "+std::to_string(num)+". ";
   std::cout << s;
 
   return 0;
