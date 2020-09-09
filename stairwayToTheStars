@@ -1,0 +1,24 @@
+#include <iostream>
+
+
+int main(void) {
+
+  int num;
+  std::cout << "How tall? (1-80)";
+  std::cin >> num;
+  std::string s;
+
+  for(int i=0; i<num; i++){
+    for(int k=0; k<num-i; k++){
+      s+=" ";
+    }
+    for(int j=-1; j<i; j++){
+      s+="* ";
+    }
+    s+="\n";
+  }
+  
+  std::cout << s;
+
+  return 0;
+}
