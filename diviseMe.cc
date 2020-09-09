@@ -4,9 +4,9 @@
 int main(void) {
 
   int num;
-  std::string s = "The divisors of "+std::to_string(num)+" are ";
   std::cout << "Gimme a number!";
   std::cin >> num;
+  std::string s = "The divisors of "+std::to_string(num)+" are ";
 
   if(num<1){
     std::cout << "Bad number!";
